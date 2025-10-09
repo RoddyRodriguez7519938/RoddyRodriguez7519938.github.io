@@ -32,7 +32,7 @@ $(function () {
 
     // TODO 2 - Create Platforms
 createPlatform(280, 650, 150, 15)
-createPlatform(530, 550, 150, 15)
+createPlatform(530, 550, 150, 14)
 createPlatform(1080, 400, 150, 14)
 createPlatform(830, 450, 150, 14)
 createPlatform(770, 270, 150, 14)
@@ -43,7 +43,9 @@ createPlatform(100, 220, 150, 14)
 
 
     // TODO 3 - Create Collectables
-
+createCollectable('max', 580, 500)
+createCollectable('max', 1133, 350)
+createCollectable('max', 465, 230)
 
 
     
